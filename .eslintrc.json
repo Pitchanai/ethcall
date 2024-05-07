@@ -23,7 +23,6 @@
     "import/group-exports": "error",
     "import/no-duplicates": "error",
     "import/no-amd": "error",
-    "import/no-commonjs": "error",
     "import/order": [
       "error",
       {
@@ -35,7 +34,10 @@
     ],
     "import/no-unused-modules": "error",
     "import/no-mutable-exports": "error",
-    "import/no-extraneous-dependencies": ["error", {"devDependencies": ["test/**/*.test.ts"]}],
+    "import/no-extraneous-dependencies": [
+      "error",
+      { "devDependencies": ["test/**/*.test.ts"] }
+    ],
     "@typescript-eslint/explicit-function-return-type": "error"
   },
   "settings": {

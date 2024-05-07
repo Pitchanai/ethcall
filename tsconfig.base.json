@@ -19,9 +19,6 @@
     "noFallthroughCasesInSwitch": true,
     "noPropertyAccessFromIndexSignature": false,
     /* Transpile */
-    "moduleResolution": "NodeNext",
-    "module": "NodeNext",
-    "outDir": "dist",
     "sourceMap": true,
     /* Building for a library */
     "declaration": true,

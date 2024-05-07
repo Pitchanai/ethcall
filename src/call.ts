@@ -1,12 +1,12 @@
 import type { JsonFragment, JsonFragmentType, Provider } from 'ethers';
 import { Contract, Result, concat } from 'ethers';
 
-import deploylessMulticallAbi from './abi/deploylessMulticall.json' assert { type: 'json' };
-import deploylessMulticall2Abi from './abi/deploylessMulticall2.json' assert { type: 'json' };
-import deploylessMulticall3Abi from './abi/deploylessMulticall3.json' assert { type: 'json' };
-import multicallAbi from './abi/multicall.json' assert { type: 'json' };
-import multicall2Abi from './abi/multicall2.json' assert { type: 'json' };
-import multicall3Abi from './abi/multicall3.json' assert { type: 'json' };
+import deploylessMulticallAbi from './abi/deploylessMulticall.json';
+import deploylessMulticall2Abi from './abi/deploylessMulticall2.json';
+import deploylessMulticall3Abi from './abi/deploylessMulticall3.json';
+import multicallAbi from './abi/multicall.json';
+import multicall2Abi from './abi/multicall2.json';
+import multicall3Abi from './abi/multicall3.json';
 import type { Params } from './abi.js';
 import Abi from './abi.js';
 import type { Multicall } from './multicall.js';
